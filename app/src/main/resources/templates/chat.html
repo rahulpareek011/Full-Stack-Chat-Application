@@ -36,7 +36,7 @@
 			document.getElementById('sendMessage').disabled = !connected
 		}
 		function connect(){
-			var socket = SockJS('/chat');
+			var socket = SockJS(window.location.origin + '/chat');
 			stompClient = Stomp.over(socket);
 			stompClient.connect({}, function (frame){
 				setConnected(true);
