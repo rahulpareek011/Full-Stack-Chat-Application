@@ -36,7 +36,7 @@
 			document.getElementById('sendMessage').disabled = !connected
 		}
 		function connect(){
-			var socket = SockJS('https://full-stack-chat-application-21a3.onrender.com/chat');
+			var socket = SockJS('/chat');
 			stompClient = Stomp.over(socket);
 			stompClient.connect({}, function (frame){
 				setConnected(true);
