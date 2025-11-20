@@ -30,6 +30,8 @@ This is a real-time chat application built using Spring Boot on the backend for 
 - HTML: 38.7%  
 - Dockerfile: 5.4%
 
+visit here: [http://full-stack-chat-application-21a3.onrender.com/chat](https://full-stack-chat-application-21a3.onrender.com/chat)
+
 ---
 
 ## 🚀 Deployment & Running
